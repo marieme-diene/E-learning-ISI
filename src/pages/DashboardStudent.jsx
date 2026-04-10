@@ -26,16 +26,13 @@ function DashboardStudent() {
                 Continuez votre apprentissage — vous êtes à 60% de votre objectif
               </p>
               <div style={styles.bannerBtns}>
-                <button
-                  style={styles.btnGold}
-                  onClick={() => navigate('/courses')}
-                >
-                  Reprendre le cours
-                </button>
-                <button style={styles.btnOutline}>
-                  Voir planning
-                </button>
-              </div>
+              <button
+               style={styles.btnGold}
+                onClick={() => navigate('/courses')}
+                        >
+                Reprendre le cours
+                  </button>
+                </div>
             </div>
             <div style={styles.bannerEmoji}>📖</div>
           </div>

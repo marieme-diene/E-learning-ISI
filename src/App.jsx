@@ -8,6 +8,10 @@ import Quiz from './pages/Quiz'
 import DashboardTeacher from './pages/DashboardTeacher'
 import Profile from './pages/Profile'
 import DashboardAdmin from './pages/DashboardAdmin'
+import Devoirs from './pages/Devoirs'
+import Multimedia from './pages/Multimedia'
+import Notes from './pages/Notes'
+import Interactions from './pages/Interactions'
 
 function App() {
   return (
@@ -23,6 +27,10 @@ function App() {
         <Route path="/teacher" element={<DashboardTeacher />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/admin" element={<DashboardAdmin />} />
+        <Route path="/devoirs" element={<Devoirs />} />
+        <Route path="/multimedia" element={<Multimedia />} />
+        <Route path="/notes" element={<Notes />} />
+        <Route path="/interactions" element={<Interactions />} />
       </Routes>
     </BrowserRouter>
   )

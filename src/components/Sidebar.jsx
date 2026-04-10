@@ -8,6 +8,10 @@ function Sidebar({ role = 'etudiant' }) {
     { path: '/courses', icon: '📚', label: 'Mes cours', badge: '5' },
     { path: '/quiz', icon: '❓', label: 'Quiz' },
     { path: '/profile', icon: '👤', label: 'Profil' },
+    { path: '/devoirs', icon: '📝', label: 'Devoirs', badge: '2' },
+    { path: '/multimedia', icon: '🎥', label: 'Multimédia' },
+    { path: '/notes', icon: '📊', label: 'Notes' },
+    { path: '/interactions', icon: '💬', label: 'Interactions' },
   ]
 
   const enseignantItems = [
