@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 
 const initialEtudiants = [
-  { id: 1, nom: 'Marieme Dieme', email: 'marieme@isi.sn', filiere: 'M1 GL', status: 'actif', initiales: 'MD', color: '#F5A623' },
+  { id: 1, nom: 'Marieme Diene', email: 'marieme@isi.sn', filiere: 'M1 GL', status: 'actif', initiales: 'MD', color: '#F5A623' },
   { id: 2, nom: 'Amadou Baldé', email: 'amadu@isi.sn', filiere: 'M1 GL', status: 'actif', initiales: 'AB', color: '#3B82F6' },
   { id: 3, nom: 'Fatou Ndiaye', email: 'fatou@isi.sn', filiere: 'L3', status: 'inactif', initiales: 'FN', color: '#22C55E' },
   { id: 4, nom: 'Ibrahima Fall', email: 'ibrahima@isi.sn', filiere: 'M1 Réseaux', status: 'actif', initiales: 'IF', color: '#7C3AED' },

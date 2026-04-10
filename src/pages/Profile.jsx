@@ -8,11 +8,11 @@ function Profile() {
   const [editing, setEditing] = useState(false)
   const [form, setForm] = useState({
     prenom: 'Marieme',
-    nom: 'Dieme',
+    nom: 'Diene',
     email: 'marieme@isi.sn',
     filiere: 'M1 Génie Logiciel',
     numero: 'ISI-2024-042',
-    phone: '+221 77 000 00 00',
+    phone: '+221 78 473 88 07',
   })
 
   const handleChange = (e) => {
@@ -112,6 +112,10 @@ function Profile() {
                       <option>M1 Génie Logiciel</option>
                       <option>M1 Réseaux</option>
                       <option>L3 Informatique</option>
+                      <option>L3 IAGE</option>
+                      <option>L1 Génie Logiciel</option>
+                      <option>L2 Cyber Securite</option>
+                      <option>L2 Multimedia</option>
                     </select>
                   </div>
                   <button
